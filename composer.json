@@ -1,5 +1,4 @@
-{
-    "post-install-cmd": [
+{    "post-install-cmd": [
         "php artisan clear-compiled",
         "chmod -R 777 public/"
     ],
@@ -35,8 +34,11 @@
         "sort-packages": true
     },
     "extra": {
-        "laravel": {
-            "dont-discover": []
+            "laravel": {
+                "dont-discover": [
+                    "laravel/dusk"
+                ]
+            }
         }
     },
     "autoload": {

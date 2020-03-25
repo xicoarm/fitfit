@@ -1,10 +1,4 @@
-{"extra": {
-    "laravel": {
-        "dont-discover": [
-            "laravel/dusk"
-        ]
-    }
-},
+{
     "private": true,
     "scripts": {
         "dev": "npm run development",
